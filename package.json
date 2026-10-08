@@ -1,0 +1,30 @@
+{
+  "name": "e-comarse-backend-2",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Syed Bilal Ali",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "node --test",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cloudinary": "^2.11.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "joi": "^18.2.9",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.11.0",
+    "multer": "^2.4.0",
+    "nodemailer": "^10.0.15"
+  },
+  "devDependencies": {
+    "chalk": "^6.0.1",
+    "nodemon": "^3.1.14"
+  }
+}
